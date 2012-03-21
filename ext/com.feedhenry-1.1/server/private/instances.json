@@ -1,0 +1,37 @@
+[{
+  "fields": {
+    "accessType": "",
+    "collapsed": false,
+    "color": "",
+    "config": {
+      "icon": {
+        "large": "default",
+        "small": "default"
+      },
+      "preview": {"device": "iphone_4"}
+    },
+    "containerCriteria": "",
+    "description": "Career survey and coach",
+    "disabled": false,
+    "discover": false,
+    "dock": "",
+    "fixedPos": false,
+    "height": 480,
+    "iconLarge": "",
+    "iconSmall": "",
+    "mobileFullScreen": false,
+    "origin": "",
+    "overrides": {},
+    "params": {},
+    "prefsEditable": false,
+    "ratingData": {},
+    "screenShot": "",
+    "sharable": false,
+    "sizeEditable": false,
+    "title": "Career Coach",
+    "titleEditable": false,
+    "type": "",
+    "width": 320
+  },
+  "sharing": []
+}]
