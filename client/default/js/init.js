@@ -15,7 +15,23 @@ $fh.ready(function() {
     // See: http://docs.feedhenry.com/wiki/Actions
     $fh.act(
       {
-        act:'getConfig'
+        act:'becomeMentor'
+      },
+      function(res) {
+        document.getElementById('cloudConfig').innerHTML = "<p>" + JSON.stringify(res.config) + "</p>";
+      },
+      function(code,errorprops,params) {
+        alert('An error occured: ' + code + ' : ' + errorprops);
+      }
+    );
+  };
+
+  document.getElementById('run_button2').onclick = function() {
+    // Invoke a cloud action call to get the remote configuration
+    // See: http://docs.feedhenry.com/wiki/Actions
+    $fh.act(
+      {
+        act:'findMentor'
       },
       function(res) {
         document.getElementById('cloudConfig').innerHTML = "<p>" + JSON.stringify(res.config) + "</p>";

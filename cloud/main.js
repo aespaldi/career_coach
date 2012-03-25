@@ -14,3 +14,15 @@ exports.getConfig = function(params, callback) {
   return callback(null, {config: cfg.config});
 };
 
+exports.becomeMentor = function(params, callback){
+
+    return callback(null, {"message": "Added as mentor"});
+};
+
+exports.findMentor = function(params, callback){
+
+    return callback(null, {"mentors": [
+        {"displayName": "Monica Wilkinson"}
+    ]});
+};
+
